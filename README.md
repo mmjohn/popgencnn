@@ -7,8 +7,8 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![Travis build
-status](https://travis-ci.com/mmjohn/popgencnn.svg?branch=master)](https://travis-ci.com/mmjohn/popgencnn)
+[![Build
+Status](https://travis-ci.com/mmjohn/popgencnn.svg?token=akGYX9ZmHWpGaEi1Ls7b&branch=master)](https://travis-ci.com/mmjohn/popgencnn)
 <!-- badges: end -->
 
 The goal of popgencnn is to …
