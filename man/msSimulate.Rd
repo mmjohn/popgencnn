@@ -17,5 +17,5 @@ msSimulate(morgans.per.bp, ne, filename)
 This function generates a shell script for ms coalescent simulations.
 }
 \examples{
-msSimulate()
+msSimulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
 }
