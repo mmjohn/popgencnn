@@ -10,6 +10,7 @@
 
 msSimulate <- function(morgans.per.bp, ne, filename){
   # converts parameters to hudson style
+  # converts parameters to hudson style
   # note nchrom, mu and bp are fixed
   n.chrom <- 50
   mu <- 1.5e-8
