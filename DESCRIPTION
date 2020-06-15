@@ -21,3 +21,5 @@ Depends:
 Imports: 
     tibble,
     dplyr
+Suggests: 
+    testthat
