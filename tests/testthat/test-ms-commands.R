@@ -8,3 +8,4 @@ test_that("ms simulation commands", {
   expect_equal(msSimulate(2.018e-5, 20000, 'sims.txt'),
                "./msdir/ms 50 1 -t 24.0012 -r 32288 20001 >> sims.txt")
 })
+
