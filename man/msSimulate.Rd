@@ -2,7 +2,7 @@
 % Please edit documentation in R/msSimulate.R
 \name{msSimulate}
 \alias{msSimulate}
-\title{Generate ms simulations}
+\title{Generate single ms simulation command}
 \usage{
 msSimulate(morgans.per.bp, ne, filename)
 }
@@ -14,7 +14,7 @@ msSimulate(morgans.per.bp, ne, filename)
 \item{filename}{explain}
 }
 \description{
-This function generates a shell script for ms coalescent simulations.
+This function generates one ms command
 }
 \examples{
 msSimulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
