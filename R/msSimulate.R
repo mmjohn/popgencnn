@@ -1,6 +1,6 @@
-#' Generate ms simulations
+#' Generate single ms simulation command
 #'
-#' This function generates a shell script for ms coalescent simulations.
+#' This function generates one ms command
 #' @param morgans.per.bp explain
 #' @param ne explain
 #' @param filename explain
