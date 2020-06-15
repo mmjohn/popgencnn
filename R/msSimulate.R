@@ -18,7 +18,13 @@ msSimulate <- function(morgans.per.bp, ne, filename){
   total.genetic.distance 	<- morgans.per.bp * (bp - 1)
   rho <- 4 * ne * total.genetic.distance
   theta <- 4 * ne * mu * bp
-  k = sprintf("./msdir/ms %s 1 -t %s -r %s %s >> %s", n.chrom,
-              theta, rho, bp, filename)
+  k = sprintf(
+    "./msdir/ms %s 1 -t %s -r %s %s >> %s",
+    n.chrom,
+    theta,
+    rho,
+    bp,
+    filename
+  )
   return(k)
 }
