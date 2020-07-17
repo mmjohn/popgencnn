@@ -13,5 +13,5 @@ get_alignment_data(all_data)
 This function parses input data from alignments and call function to reform them
 }
 \examples{
-get_alignment_data(c("1010", "0010", "0110"))
+get_alignment_data(c("1010", "bananas", "0010", "0110"))
 }

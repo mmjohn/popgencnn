@@ -21,6 +21,8 @@ Depends:
 Imports: 
     tibble,
     dplyr,
-    purrr
+    purrr,
+    tidyr,
+    magrittr
 Suggests: 
     testthat
