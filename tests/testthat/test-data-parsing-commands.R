@@ -27,9 +27,9 @@ test_that("position commands", {
 
 test_that("rho commands", {
 
-  vec1 <- get_rho_data(c("cat -r 1.3 20001",
-                         "random -r 3.4 20001"))
-  vec2 <- c(1.3, 3.4)
+  vec1 <- get_rho_data(c("cat -t 0.2 -r 1.3 20001",
+                         "random -t 0.7 -r 3.4 20001"))
+  vec2 <- matrix(c(0.2, 0.7, 1.3, 3.4), ncol = 2)
   expect_equal(vec1, vec2)
 
 })

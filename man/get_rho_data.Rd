@@ -13,5 +13,5 @@ get_rho_data(all_data)
 This function finds lines with rho values, extracts, and combines all values into a numeric vector
 }
 \examples{
-get_rho_data(c("cat -r 1.3 20001", "random -r 3.4 20001"))
+get_rho_data(c("cat -t 0.2 -r 1.3 20001", "random -t 0.7 -r 3.4 20001"))
 }
