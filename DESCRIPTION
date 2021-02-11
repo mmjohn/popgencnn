@@ -23,6 +23,7 @@ Imports:
     dplyr,
     purrr,
     tidyr,
-    magrittr
+    magrittr,
+    stats
 Suggests: 
     testthat

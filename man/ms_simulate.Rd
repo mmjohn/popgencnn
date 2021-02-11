@@ -17,5 +17,5 @@ ms_simulate(morgans.per.bp, ne, filename)
 This function generates one ms command
 }
 \examples{
-msSimulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
+ms_simulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
 }

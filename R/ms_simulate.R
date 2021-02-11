@@ -5,7 +5,7 @@
 #' @param ne explain
 #' @param filename explain
 #' @examples
-#' msSimulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
+#' ms_simulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
 #' @export
 
 ms_simulate <- function(morgans.per.bp, ne, filename){
