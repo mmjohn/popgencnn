@@ -8,7 +8,7 @@
 #' msSimulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
 #' @export
 
-msSimulate <- function(morgans.per.bp, ne, filename){
+ms_simulate <- function(morgans.per.bp, ne, filename){
   # converts parameters to hudson style
   # note nchrom, mu and bp are fixed
   n.chrom <- 50
