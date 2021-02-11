@@ -5,6 +5,18 @@
 
 using namespace Rcpp;
 
+// list_to_array
+NumericVector list_to_array(List input, IntegerVector dim);
+RcppExport SEXP _popgencnn_list_to_array(SEXP inputSEXP, SEXP dimSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< List >::type input(inputSEXP);
+    Rcpp::traits::input_parameter< IntegerVector >::type dim(dimSEXP);
+    rcpp_result_gen = Rcpp::wrap(list_to_array(input, dim));
+    return rcpp_result_gen;
+END_RCPP
+}
 // timesTwo
 int timesTwo(int x);
 RcppExport SEXP _popgencnn_timesTwo(SEXP xSEXP) {
@@ -18,6 +30,7 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
+    {"_popgencnn_list_to_array", (DL_FUNC) &_popgencnn_list_to_array, 2},
     {"_popgencnn_timesTwo", (DL_FUNC) &_popgencnn_timesTwo, 1},
     {NULL, NULL, 0}
 };
