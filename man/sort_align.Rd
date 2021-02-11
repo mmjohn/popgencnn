@@ -12,6 +12,3 @@ sort_align(single_align)
 \description{
 This function takes in one alignment, calculates Manhattan distance between all rows, clusters by distance, then returns a sorted alignment
 }
-\examples{
-sort_align(single_align)
-}
