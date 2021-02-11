@@ -10,11 +10,3 @@ list_to_array <- function(input, dim) {
     .Call(`_popgencnn_list_to_array`, input, dim)
 }
 
-#' Multiply a number by two
-#'
-#' @param x A single integer.
-#' @export
-timesTwo <- function(x) {
-    .Call(`_popgencnn_timesTwo`, x)
-}
-

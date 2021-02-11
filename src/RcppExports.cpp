@@ -17,21 +17,9 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// timesTwo
-int timesTwo(int x);
-RcppExport SEXP _popgencnn_timesTwo(SEXP xSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< int >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(timesTwo(x));
-    return rcpp_result_gen;
-END_RCPP
-}
 
 static const R_CallMethodDef CallEntries[] = {
     {"_popgencnn_list_to_array", (DL_FUNC) &_popgencnn_list_to_array, 2},
-    {"_popgencnn_timesTwo", (DL_FUNC) &_popgencnn_timesTwo, 1},
     {NULL, NULL, 0}
 };
 
