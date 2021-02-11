@@ -13,5 +13,5 @@ do_sim(index)
 This function generates a shell script for all ms coalescent simulations.
 }
 \examples{
-doSim(1)
+do_sim(1)
 }

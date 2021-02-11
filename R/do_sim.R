@@ -3,7 +3,7 @@
 #' This function generates a shell script for all ms coalescent simulations.
 #' @param index simulation number
 #' @examples
-#' doSim(1)
+#' do_sim(1)
 #' @export
 
 do_sim <- function(index){
