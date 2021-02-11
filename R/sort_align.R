@@ -2,6 +2,7 @@
 #'
 #' This function takes in one alignment, calculates Manhattan distance between all rows, clusters by distance, then returns a sorted alignment
 #' @param single_align One unsorted alignment 
+#' @examples sort_align(matrix(c(0,0,0,1,1,1,0,1,0), ncol = 3, nrow = 3))
 #' @export
 
 sort_align <- function(single_align){
