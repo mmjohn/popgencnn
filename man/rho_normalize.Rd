@@ -8,6 +8,8 @@ rho_normalize(rho_set, mean_center)
 }
 \arguments{
 \item{rho_set}{A vector of rho values used for training, validation, or testing}
+
+\item{mean_center}{The mean used for normalization; currently using the mean of the training set}
 }
 \description{
 This function takes in a vector of rho values and normalizes it by log transforming and centering on a mean value
