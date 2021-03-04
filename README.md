@@ -9,6 +9,8 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Build
 Status](https://travis-ci.com/mmjohn/popgencnn.svg?token=akGYX9ZmHWpGaEi1Ls7b&branch=master)](https://travis-ci.com/mmjohn/popgencnn)
+[![Codecov test
+coverage](https://codecov.io/gh/mmjohn/popgencnn/branch/master/graph/badge.svg)](https://codecov.io/gh/mmjohn/popgencnn?branch=master)
 <!-- badges: end -->
 
 The goal of popgencnn is to …
