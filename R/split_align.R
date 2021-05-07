@@ -5,7 +5,7 @@
 #' @param set_end
 #' @param max_size
 #' @param num_chrom
-#' @examples get_split_index(0.8, 1999)
+#' @examples split_align()
 #' @export
 
 split_align <- function(all_align, set_begin, set_end, max_size, num_chrom){
