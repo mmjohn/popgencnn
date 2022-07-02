@@ -4,18 +4,18 @@
 \alias{ms_simulate}
 \title{Generate single ms simulation command}
 \usage{
-ms_simulate(morgans.per.bp, ne, filename)
+ms_simulate(morgans_per_bp, ne, filename)
 }
 \arguments{
-\item{morgans.per.bp}{explain}
+\item{morgans_per_bp}{crossover rate per bp per meiosis}
 
-\item{ne}{explain}
+\item{ne}{effective population size}
 
-\item{filename}{explain}
+\item{filename}{output file}
 }
 \description{
 This function generates one ms command
 }
 \examples{
-ms_simulate(morgans.per.bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
+ms_simulate(morgans_per_bp = 2.018353e-08, ne = 1000, filename = 'sim.txt')
 }

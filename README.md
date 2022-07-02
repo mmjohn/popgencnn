@@ -12,7 +12,11 @@ Status](https://travis-ci.com/mmjohn/popgencnn.svg?token=akGYX9ZmHWpGaEi1Ls7b&br
 [![codecov](https://codecov.io/gh/mmjohn/popgencnn/branch/master/graph/badge.svg?token=PJJ6IBM5XB)](https://codecov.io/gh/mmjohn/popgencnn)
 <!-- badges: end -->
 
-The goal of popgencnn is to …
+The goal of popgencnn is to support deep learning pipelines for
+population genomic inference in R. Current functionality supports the
+generation and pre-processing of simulated data sets. Specifically,
+coalescent simulations for use in neural networks estimators of
+historical population recombination rate.
 
 ## Installation
 
@@ -29,5 +33,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(popgencnn)
-## basic example code
+
+ms_simulate(
+  morgans_per_bp = 2.0e-8, 
+  ne = 10000, 
+  filename = 'sim.txt'
+)
+#> [1] "./msdir/ms 50 1 -t 12.0006 -r 16 20001 >> sim.txt"
 ```

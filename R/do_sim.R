@@ -8,11 +8,11 @@
 
 do_sim <- function(index){
   # picks parameters
-  mbp   <- 10^(runif(n = 1,min = -8, max = -6))
-  my.ne <- sample(c(1000, 2000, 5000, 10000, 15000, 20000, 50000), 1)
+  mbp   <- 10^(stats::runif(n = 1,min = -8, max = -6))
+  my_ne <- sample(c(1000, 2000, 5000, 10000, 15000, 20000, 50000), 1)
   ms_simulate(
-    morgans.per.bp = mbp,
-    ne = my.ne,
+    morgans_per_bp = mbp,
+    ne = my_ne,
     filename = 'all_LD_sims.txt'
   )
 }
